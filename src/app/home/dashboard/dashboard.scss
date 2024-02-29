@@ -1,0 +1,33 @@
+@import "../../../style/index.scss";
+
+.dashboard-main {
+  .chart {
+    max-width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin: 60px 150px;
+    border-radius: 10px;
+    padding: 20px;
+  }
+  .table {
+    min-width: 100%;
+    Table {
+      margin: 0px 60px;
+      tr {
+        text-align: center;
+        border-bottom: 1px solid #000;
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .dashboard-main {
+    .chart {
+      max-width: 100%;
+      box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+      margin: 60px 80px;
+      border-radius: 10px;
+      padding: 20px;
+    }
+  }
+}

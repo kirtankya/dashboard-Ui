@@ -1,0 +1,51 @@
+@import "../../../style/index.scss";
+
+.form {
+  max-width: 600px;
+  background-color: var(--background-color);
+  margin-top: 50px;
+  padding: 40px;
+
+  h2 {
+    @include font-40;
+    color: var(--color-white);
+  }
+
+  form {
+    .flex-aligment {
+      display: flex;
+      justify-content: center;
+      gap: 40px;
+      margin-top: 20px;
+
+      input {
+        width: 400px;
+        height: 40px;
+        border: none;
+        color: var(--color-white);
+        background-color: var(--background-color-transparent);
+        border-bottom: 2px solid var(--color-white);
+        outline: none;
+
+        &::placeholder {
+          color: var(--color-white);
+          font-size: 18px;
+          padding-left: 20px;
+        }
+      }
+    }
+    .signUpbutton {
+      margin-top: 20px;
+      text-align: center;
+    }
+  }
+
+  .text {
+    padding: 10px;
+    color: var(--color-white);
+  }
+
+  .text-1 {
+    color: var(--color-white);
+  }
+}
